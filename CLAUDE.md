@@ -24,11 +24,10 @@ Este repositorio es el proyecto de asignación de carteras del equipo comercial 
 - Preguntar cuando algo no esté claro.
 - Respetar el estilo de los demás archivos.
 - Cuidar los nombres de los archivos.
-- Usar nombres en minúscula y sin espacios.
 - No cambiar archivos que no tengan relación con la tarea.
 
 ## Reglas del proceso
-- El dueño del proceso de asignación es la jefa comercial; ningún cambio de reglas se acepta sin su aprobación.
+- El dueño del proceso de asignación es el jefe comercial; ningún cambio de reglas se acepta sin su aprobación.
 - Nunca se asigna un cliente a un ejecutivo que ya llegó a su capacidad, sin excepciones.
 - Solo se trabaja con los datos de `datos/`, que son inventados. Nunca pegar RUT, correos ni montos de clientes reales.
 - Todo cambio se hace en una rama y entra por pull request; nunca se edita `main` directo.
@@ -39,8 +38,8 @@ Este repositorio es el proyecto de asignación de carteras del equipo comercial 
 - `carteras_clientes.csv` tiene un cliente por fila.
 - `carteras_ejecutivos.csv` tiene un ejecutivo por fila.
 - Las columnas están descritas en la primera fila de cada archivo.
-- Las zonas son Norte, Centro y Sur.
-- Los segmentos son hotel, gimnasio, oficina y otros.
+- Las zonas son Norte, Centro, Sur y Oriente.
+- Los segmentos son clínica, gimnasio, hotel, oficina y restaurante.
 
 ## Notas generales
 - Mantener este archivo actualizado.
