@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verifica que asignacion_propuesta.csv no rompa las reglas duras. Uso: python3 verificar.py
+"""Verifica que asignacion_propuesta.csv no rompa las reglas duras. Uso: python3 verificar.py [archivo.csv]
 El archivo debe tener las columnas: cliente_nuevo_id, ejecutivo_id, regla_aplicada (o «pendiente» en ejecutivo_id)."""
 import csv, sys
 from datetime import date
@@ -14,7 +14,7 @@ def capacidad(e):
     if r["estado"] == "licencia": return 0
     if r["estado"] == "ramp-up" and (HOY - date.fromisoformat(r["fecha_estado"])).days <= 90: return cap // 2
     return cap
-errores, filas = [], list(csv.DictReader(open("asignacion_propuesta.csv")))
+errores, filas = [], list(csv.DictReader(open(sys.argv[1] if len(sys.argv) > 1 else "asignacion_propuesta.csv")))
 vistos = {f["cliente_nuevo_id"] for f in filas}
 for n in nue:
     if n not in vistos: errores.append(f"{n}: no aparece en la propuesta")
