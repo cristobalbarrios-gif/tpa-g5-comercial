@@ -1,0 +1,17 @@
+cliente_nuevo_id,segmento,zona,potencial,facturacion_anual_estimada,origen,nota
+N-001,oficina,Norte,B,62000000,web,
+N-002,hotel,Sur,A,210000000,referido,
+N-003,gimnasio,Oriente,B,55000000,evento,
+N-004,clínica,Oriente,A,180000000,referido,pidió atención de E3
+N-005,restaurante,Centro,C,14000000,web,
+N-006,oficina,Oriente,C,22000000,web,
+N-007,clínica,Centro,A,240000000,evento,
+N-008,hotel,Norte,B,98000000,web,
+N-009,gimnasio,Centro,C,18000000,referido,
+N-010,oficina,,B,70000000,web,zona no informada
+N-011,restaurante,Sur,B,45000000,evento,
+N-012,restaurante,Oriente,C,31000000,web,mismo cliente que C-0044 con otro código
+N-013,clínica,Sur,B,130000000,web,
+N-014,hotel,Oriente,B,88000000,referido,
+N-015,oficina,Norte,C,9000000,web,
+N-016,gimnasio,Sur,A,151000000,evento,
